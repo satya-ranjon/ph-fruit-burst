@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Burst</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"
+      rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#F85559",
+              dark: "#121212",
+            },
+            backgroundImage: {},
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <nav class="">
+      <div class="flex flex-wrap items-center justify-between mx-auto py-5">
+        <ul class="flex justify-center items-center text-lg">
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4">Shop</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4">All Fruits</a>
+          </li>
+        </ul>
+        <a href="#" class="flex items-center ml-3">
+          <img
+            src="./assets/images/logo.png"
+            class="w-7 sm:w-12 mr-3 lg:w-14"
+            alt="Flowbite Logo" />
+          <span
+            class="self-center text-xl sm:text-[30px] lg:text-[40px] text-dark font-bold whitespace-nowrap"
+            >Fruit Burst</span
+          >
+        </a>
+        <!-- Mobile Menu Button 1026 after 1024px -->
+        <button
+          data-collapse-toggle="navbar-hamburger"
+          type="button"
+          class="p-2 focus:outline-none focus:ring-2 mr-3 lg:hidden"
+          aria-controls="navbar-hamburger"
+          aria-expanded="false">
+          <img src="./assets/icons/menu.svg" alt="" />
+        </button>
+        <div
+          class="w-full bg-primary hidden text-white flex flex-col justify-center items-center px-4 mt-4 lg:hidden"
+          id="navbar-hamburger">
+          <div
+            class="flex w-full my-3 bg-white rounded-full overflow-hidden px-5">
+            <input
+              class="w-full outline-none p-3 text-base text-dark placeholder:text-[#121212]"
+              placeholder="Search here" />
+            <div class="flex items-center pl-3">
+              <img src="./assets/icons/search.svg" alt="" />
+            </div>
+          </div>
+
+          <ul class="flex justify-center flex-col items-center text-lg">
+            <li>
+              <a href="#" class="block py-2 pl-3 pr-4">Home</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 pl-3 pr-4">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 pl-3 pr-4">Shop</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 pl-3 pr-4">All Fruits</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
