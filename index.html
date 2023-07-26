@@ -31,20 +31,47 @@
       <!-- Navbar -->
       <div
         class="flex flex-wrap sm:bg-[#F85559] lg:flex-no-wrap items-center justify-between mx-auto py-5 lg:m-5 xl:mx-20 2xl:mx-40 lg:rounded-full lg:px-10 2xl:px-20">
-        <!-- Desktop Menu  -->
+        <!-- Menu Items  -->
         <ul
-          class="hidden text-white text-xl font-medium lg:flex gap-3 2xl:text-2xl 2xl:gap-10">
+          class="w-full absolute top-[100px] bg-white sm:bg-[#F85559] text-center text-xl font-medium lg:w-max lg:static lg:flex gap-3 2xl:text-2xl 2xl:gap-10 hidden pb-7 lg:pb-0 px-3 lg:px-0 z-50"
+          id="navbar-hamburger">
+          <!-- Mobile Menu Search  -->
+          <div
+            class="flex w-full my-3 bg-white border-2 border-red-400 rounded-full overflow-hidden px-5 sm:hidden">
+            <input
+              class="w-full outline-none p-3 text-base text-[#121212] placeholder:text-[#121212]"
+              placeholder="Search here" />
+            <div class="flex items-center pl-3">
+              <img src="./assets/icons/search.svg" alt="" />
+            </div>
+          </div>
           <li>
-            <a href="#" class="font-normal text-white text-xl">Home</a>
+            <a
+              href="#"
+              class="font-normal py-2 block lg:py-0 text-black sm:text-white text-xl"
+              >Home</a
+            >
           </li>
           <li>
-            <a href="#" class="font-normal text-white text-xl">About Us</a>
+            <a
+              href="#"
+              class="font-normal py-2 block lg:py-0 text-black sm:text-white text-xl"
+              >About Us</a
+            >
           </li>
           <li>
-            <a href="#" class="font-normal text-white text-xl">Shop</a>
+            <a
+              href="#"
+              class="font-normal py-2 block lg:py-0 text-black sm:text-white text-xl"
+              >Shop</a
+            >
           </li>
           <li>
-            <a href="#" class="font-normal text-white text-xl">All Fruits</a>
+            <a
+              href="#"
+              class="font-normal py-2 block lg:py-0 text-black sm:text-white text-xl"
+              >All Fruits</a
+            >
           </li>
         </ul>
 
@@ -70,7 +97,7 @@
             <img src="./assets/icons/search.svg" alt="search" />
           </div>
         </div>
-        <!-- Mobile Menu Button 1026 after 1024px -->
+        <!-- Mobile Menu Button -->
         <button
           data-collapse-toggle="navbar-hamburger"
           type="button"
@@ -79,51 +106,6 @@
           aria-expanded="false">
           <i class="fa-solid fa-bars text-2xl text-[#121212] sm:text-white"></i>
         </button>
-        <div
-          class="w-full absolute top-[90px] z-[999] h-[300px] sm:h-48 bg-white sm:bg-[#F85559] hidden flex-col justify-center items-center px-4 mt-4 lg:hidden"
-          id="navbar-hamburger">
-          <div
-            class="flex w-full my-3 bg-white border-2 border-red-400 rounded-full overflow-hidden px-5 sm:hidden">
-            <input
-              class="w-full outline-none p-3 text-base text-[#121212] placeholder:text-[#121212]"
-              placeholder="Search here" />
-            <div class="flex items-center pl-3">
-              <img src="./assets/icons/search.svg" alt="" />
-            </div>
-          </div>
-
-          <ul
-            class="flex justify-center flex-col items-center text-lg gap-5 pb-5 font-medium">
-            <li>
-              <a
-                href="#"
-                class="font-normal text-[#121212] sm:text-white text-lg"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="font-normal text-[#121212] sm:text-white text-lg"
-                >About Us</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="font-normal text-[#121212] sm:text-white text-lg"
-                >Shop</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="font-normal text-[#121212] sm:text-white text-lg"
-                >All Fruits</a
-              >
-            </li>
-          </ul>
-        </div>
       </div>
 
       <!-- Hero Section -->
