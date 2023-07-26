@@ -12,8 +12,10 @@
     <!-- import custom style css  -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- import phosphoricons icons  -->
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- import fontawesome icons  -->
+    <script
+      src="https://kit.fontawesome.com/e4fd9340d4.js"
+      crossorigin="anonymous"></script>
 
     <!-- import Flowbite - Tailwind CSS component library  -->
     <link
@@ -90,7 +92,7 @@
           class="p-2 focus:outline-none focus:ring-2 mr-3 lg:hidden"
           aria-controls="navbar-hamburger"
           aria-expanded="false">
-          <i class="ph ph-list text-2xl text-[#121212] sm:text-white"></i>
+          <i class="fa-solid fa-bars text-2xl text-[#121212] sm:text-white"></i>
         </button>
         <div
           class="w-full absolute top-[90px] z-[999] h-[300px] sm:h-48 bg-white sm:bg-[#F85559] hidden flex-col justify-center items-center px-4 mt-4 lg:hidden"
@@ -1040,16 +1042,155 @@
 
         <div class="flex justify-center items-center my-8">
           <button
-            class="bg-[#F85559] p-2 px-3 sm:p-4 sm:px-8 text-white rounded-md text-sm sm:text-lg font-bold mx-auto">
+            class="bg-[#F85559] p-2 px-3 sm:p-4 sm:px-8 text-white rounded-md text-sm sm:text-lg font-bold mx-auto lg:mb-10">
             Shop All
           </button>
         </div>
       </section>
-    </main>
 
-    <!-- <div
-      class="fixed top-0 left-0 right-0 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full z-[9999999999] bg-[#4b45452b]"></div> -->
+      <!-- Team section -->
+
+      <section
+        class="mx-5 lg:m-5 xl:mx-20 2xl:mx-40 bg-team mt-24 bg-cover bg-no-repeat rounded-xl overflow-hidden">
+        <div class="lg:w-[90%] xl:w-[70%] mx-auto sm:mb-10">
+          <div class="text-center pt-5 text-white lg:pt-14">
+            <h1 class="text-2xl sm:text-4xl font-bold">
+              Meet the team section
+            </h1>
+            <p class="text-sm font-normal p-4 lg:px-40 xl:px-48">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-5">
+            <!-- Team Member One  -->
+            <div
+              class="text-center flex flex-col gap-3 justify-center items-center py-5 px-2 text-white">
+              <div
+                class="w-24 h-24 lg:w-28 lg:h-28 overflow-hidden rounded-full">
+                <img
+                  src="./assets/images/team (1).png"
+                  alt="Awlad Hossain"
+                  class="w-full h-full" />
+              </div>
+              <h1 class="text-2xl font-bold mt-2">Awlad Hossain</h1>
+              <p class="my-2">Fruits Expert</p>
+              <div class="flex gap-3">
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Team Member Two  -->
+            <div
+              class="text-center flex flex-col gap-3 justify-center items-center py-5 px-2 text-white">
+              <div
+                class="w-24 h-24 lg:w-28 lg:h-28 overflow-hidden rounded-full">
+                <img
+                  src="./assets/images/team (2).png"
+                  alt="Awlad Hossain"
+                  class="w-full h-full" />
+              </div>
+              <h1 class="text-2xl font-bold mt-2">Safia Chowdhury</h1>
+              <p class="my-2">Fruits Expert</p>
+              <div class="flex gap-3">
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Team Member Three  -->
+            <div
+              class="text-center flex flex-col gap-3 justify-center items-center py-5 px-2 text-white">
+              <div
+                class="w-24 h-24 lg:w-28 lg:h-28 overflow-hidden rounded-full">
+                <img
+                  src="./assets/images/team (3).png"
+                  alt="Awlad Hossain"
+                  class="w-full h-full" />
+              </div>
+              <h1 class="text-2xl font-bold mt-2">Rokib Hossain</h1>
+              <p class="my-2">Fruits Expert</p>
+              <div class="flex gap-3">
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Team Member Four  -->
+            <div
+              class="text-center flex flex-col gap-3 justify-center items-center py-5 px-2 text-white">
+              <div
+                class="w-24 h-24 lg:w-28 lg:h-28 overflow-hidden rounded-full">
+                <img
+                  src="./assets/images/team (4).png"
+                  alt="Awlad Hossain"
+                  class="w-full h-full" />
+              </div>
+              <h1 class="text-2xl font-bold mt-2">Chaity</h1>
+              <p class="my-2">Fruits Expert</p>
+              <div class="flex gap-3">
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a
+                  href="#"
+                  class="bg-red-400 p-3 w-10 h-10 sm:w-12 sm:h-12 flex justify-center items-center text-center rounded-full">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
-
-<!-- overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full z-[9999999999] -->

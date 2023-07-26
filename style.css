@@ -4,5 +4,10 @@
 }
 .hero_content {
   background: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
-  /* background-color: red; */
+}
+
+.bg-team {
+  background-image: url("./assets/images/slider\ \(3\).png"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
 }
