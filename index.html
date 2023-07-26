@@ -478,7 +478,6 @@
               class="text-base text-red-600 font-bold cursor-pointer lg:pt-3"
               >Details</span
             >
-
             <!-- Main modal -->
             <div
               id="defaultModal"
@@ -501,7 +500,7 @@
                   </p>
 
                   <!-- Rating  -->
-                  <div class="flex items-center">
+                  <div class="flex items-center py-2">
                     <svg
                       class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
                       aria-hidden="true"
@@ -521,7 +520,7 @@
                         d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
                     </svg>
                     <svg
-                      class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
+                      class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -566,6 +565,7 @@
               </div>
             </div>
           </div>
+
           <!-- Single Card Item 2 -->
           <div
             class="flex flex-col gap-2 justify-center items-center border-2 border-gray-100 rounded-md py-10">
@@ -626,12 +626,103 @@
                   d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
               </svg>
             </div>
+
             <!-- Modal  -->
+            <!-- Modal toggle -->
             <span
+              data-modal-target="defaultModal2"
+              data-modal-toggle="defaultModal2"
               class="text-base text-red-600 font-bold cursor-pointer lg:pt-3"
               >Details</span
             >
+            <!-- Main modal -->
+            <div
+              id="defaultModal2"
+              tabindex="-1"
+              aria-hidden="true"
+              class="fixed top-0 hidden left-0 right-0 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full z-[99999] bg-[#12121299]">
+              <div class="relative w-full max-w-sm max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="flex bg-white flex-col gap-2 justify-center items-center border-2 border-gray-100 rounded-md py-10 text-center">
+                  <div class="">
+                    <img src="./assets/images/deal (2).png" alt="" />
+                  </div>
+                  <h2 class="text-3xl font-bold text-[#121212] pb-3 px-3">
+                    Red Dragon
+                  </h2>
+                  <p class="opacity-60 py-2 px-6">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+
+                  <!-- Rating  -->
+                  <div class="flex items-center">
+                    <svg
+                      class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                  </div>
+
+                  <div class="flex items-center p-6 space-x-2">
+                    <button
+                      data-modal-hide="defaultModal2"
+                      type="button"
+                      class="text-red-500 font-semibold border-2 border-red-300 py-1 rounded-md px-4">
+                      Close
+                    </button>
+                    <button
+                      type="button"
+                      class="text-white font-semibold border-2 bg-red-500 border-red-500 py-1 rounded-md px-4">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
           <!-- Single Card Item 3 -->
           <div
             class="flex flex-col gap-2 justify-center items-center border-2 border-gray-100 rounded-md py-10">
@@ -692,13 +783,104 @@
                   d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
               </svg>
             </div>
+
             <!-- Modal  -->
+            <!-- Modal toggle -->
             <span
+              data-modal-target="defaultModal3"
+              data-modal-toggle="defaultModal3"
               class="text-base text-red-600 font-bold cursor-pointer lg:pt-3"
               >Details</span
             >
+            <!-- Main modal -->
+            <div
+              id="defaultModal3"
+              tabindex="-1"
+              aria-hidden="true"
+              class="fixed top-0 hidden left-0 right-0 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full z-[99999] bg-[#12121299]">
+              <div class="relative w-full max-w-sm max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="flex bg-white flex-col gap-2 justify-center items-center border-2 border-gray-100 rounded-md py-10 text-center">
+                  <div class="">
+                    <img src="./assets/images/deal (3).png" alt="" />
+                  </div>
+                  <h2 class="text-3xl font-bold text-[#121212] pb-3 px-3">
+                    Apples
+                  </h2>
+                  <p class="opacity-60 py-2 px-6">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+
+                  <!-- Rating  -->
+                  <div class="flex items-center">
+                    <svg
+                      class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                  </div>
+
+                  <div class="flex items-center p-6 space-x-2">
+                    <button
+                      data-modal-hide="defaultModal3"
+                      type="button"
+                      class="text-red-500 font-semibold border-2 border-red-300 py-1 rounded-md px-4">
+                      Close
+                    </button>
+                    <button
+                      type="button"
+                      class="text-white font-semibold border-2 bg-red-500 border-red-500 py-1 rounded-md px-4">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- Single Card Item 3 -->
+
+          <!-- Single Card Item 4 -->
           <div
             class="flex flex-col gap-2 justify-center items-center border-2 border-gray-100 rounded-md py-10">
             <div class="">
@@ -758,11 +940,101 @@
                   d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
               </svg>
             </div>
+
             <!-- Modal  -->
+            <!-- Modal toggle -->
             <span
+              data-modal-target="defaultModal4"
+              data-modal-toggle="defaultModal4"
               class="text-base text-red-600 font-bold cursor-pointer lg:pt-3"
               >Details</span
             >
+            <!-- Main modal -->
+            <div
+              id="defaultModal4"
+              tabindex="-1"
+              aria-hidden="true"
+              class="fixed top-0 hidden left-0 right-0 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full z-[99999] bg-[#12121299]">
+              <div class="relative w-full max-w-sm max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="flex bg-white flex-col gap-2 justify-center items-center border-2 border-gray-100 rounded-md py-10 text-center">
+                  <div class="">
+                    <img src="./assets/images/deal (4).png" alt="" />
+                  </div>
+                  <h2 class="text-3xl font-bold text-[#121212] pb-3 px-3">
+                    Orange
+                  </h2>
+                  <p class="opacity-60 py-2 px-6">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+
+                  <!-- Rating  -->
+                  <div class="flex items-center">
+                    <svg
+                      class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                    <svg
+                      class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 22 20">
+                      <path
+                        d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                    </svg>
+                  </div>
+
+                  <div class="flex items-center p-6 space-x-2">
+                    <button
+                      data-modal-hide="defaultModal4"
+                      type="button"
+                      class="text-red-500 font-semibold border-2 border-red-300 py-1 rounded-md px-4">
+                      Close
+                    </button>
+                    <button
+                      type="button"
+                      class="text-white font-semibold border-2 bg-red-500 border-red-500 py-1 rounded-md px-4">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
