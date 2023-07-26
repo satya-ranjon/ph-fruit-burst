@@ -43,21 +43,21 @@
     <header>
       <!-- Navbar -->
       <div
-        class="flex flex-wrap sm:bg-primary lg:flex-no-wrap items-center justify-between mx-auto py-5 lg:m-5 xl:mx-20 2xl:mx-40 lg:rounded-full lg:px-10 2xl:px-20">
+        class="flex flex-wrap sm:bg-[#F85559] lg:flex-no-wrap items-center justify-between mx-auto py-5 lg:m-5 xl:mx-20 2xl:mx-40 lg:rounded-full lg:px-10 2xl:px-20">
         <!-- Desktop Menu  -->
         <ul
           class="hidden text-white text-xl font-medium lg:flex gap-3 2xl:text-2xl 2xl:gap-10">
           <li>
-            <a href="#" class="font-semibold text-white text-xl">Home</a>
+            <a href="#" class="font-normal text-white text-xl">Home</a>
           </li>
           <li>
-            <a href="#" class="font-semibold text-white text-xl">About Us</a>
+            <a href="#" class="font-normal text-white text-xl">About Us</a>
           </li>
           <li>
-            <a href="#" class="font-semibold text-white text-xl">Shop</a>
+            <a href="#" class="font-normal text-white text-xl">Shop</a>
           </li>
           <li>
-            <a href="#" class="font-semibold text-white text-xl">All Fruits</a>
+            <a href="#" class="font-normal text-white text-xl">All Fruits</a>
           </li>
         </ul>
 
@@ -68,7 +68,7 @@
             class="w-7 sm:w-12 mr-3 lg:w-14"
             alt="Flowbite Logo" />
           <span
-            class="self-center text-xl sm:text-[30px] lg:text-[40px] text-dark sm:text-white font-bold whitespace-nowrap"
+            class="self-center text-xl sm:text-[30px] lg:text-[40px] text-[#121212] sm:text-white font-bold whitespace-nowrap"
             >Fruit Burst</span
           >
         </a>
@@ -77,13 +77,12 @@
         <div
           class="my-3 bg-white rounded-full overflow-hidden px-5 hidden sm:flex">
           <input
-            class="w-full outline-none p-3 text-base text-dark placeholder:text-[#121212]"
+            class="w-full outline-none p-3 text-base text-[#121212] placeholder:text-[#121212]"
             placeholder="Search here" />
           <div class="flex items-center pl-3">
             <img src="./assets/icons/search.svg" alt="" />
           </div>
         </div>
-
         <!-- Mobile Menu Button 1026 after 1024px -->
         <button
           data-collapse-toggle="navbar-hamburger"
@@ -91,15 +90,15 @@
           class="p-2 focus:outline-none focus:ring-2 mr-3 lg:hidden"
           aria-controls="navbar-hamburger"
           aria-expanded="false">
-          <i class="ph ph-list text-2xl text-dark sm:text-white"></i>
+          <i class="ph ph-list text-2xl text-[#121212] sm:text-white"></i>
         </button>
         <div
-          class="w-full bg-primary hidden text-white flex-col justify-center items-center px-4 mt-4 lg:hidden"
+          class="w-full absolute top-[90px] z-[999] h-[300px] sm:h-48 bg-white sm:bg-[#F85559] hidden flex-col justify-center items-center px-4 mt-4 lg:hidden"
           id="navbar-hamburger">
           <div
-            class="flex w-full my-3 bg-white rounded-full overflow-hidden px-5 sm:hidden">
+            class="flex w-full my-3 bg-white border-2 border-red-400 rounded-full overflow-hidden px-5 sm:hidden">
             <input
-              class="w-full outline-none p-3 text-base text-dark placeholder:text-[#121212]"
+              class="w-full outline-none p-3 text-base text-[#121212] placeholder:text-[#121212]"
               placeholder="Search here" />
             <div class="flex items-center pl-3">
               <img src="./assets/icons/search.svg" alt="" />
@@ -109,16 +108,30 @@
           <ul
             class="flex justify-center flex-col items-center text-lg gap-5 pb-5 font-medium">
             <li>
-              <a href="#" class="font-semibold text-white text-xl">Home</a>
+              <a
+                href="#"
+                class="font-normal text-[#121212] sm:text-white text-lg"
+                >Home</a
+              >
             </li>
             <li>
-              <a href="#" class="font-semibold text-white text-xl">About Us</a>
+              <a
+                href="#"
+                class="font-normal text-[#121212] sm:text-white text-lg"
+                >About Us</a
+              >
             </li>
             <li>
-              <a href="#" class="font-semibold text-white text-xl">Shop</a>
+              <a
+                href="#"
+                class="font-normal text-[#121212] sm:text-white text-lg"
+                >Shop</a
+              >
             </li>
             <li>
-              <a href="#" class="font-semibold text-white text-xl"
+              <a
+                href="#"
+                class="font-normal text-[#121212] sm:text-white text-lg"
                 >All Fruits</a
               >
             </li>
@@ -347,7 +360,7 @@
         <div
           class="flex flex-col mt-6 lg:flex-row lg:justify-between lg:items-center">
           <div class="text-center lg:text-start">
-            <h2 class="text-dark text-2xl font-bold sm:text-4xl">
+            <h2 class="text-[#121212] text-2xl font-bold sm:text-4xl">
               Deal of the day
             </h2>
             <p class="text-light opacity-60 sm:px-20 sm:py-4 lg:px-0 lg:w-3/4">
@@ -356,7 +369,8 @@
               it over 2000 years old.
             </p>
           </div>
-          <div class="flex mx-auto text-dark mt-4 sm:pb-5 lg:mx-0">
+          <div
+            class="flex mx-auto text-[#121212] mt-4 sm:pb-5 lg:mx-0 lg:w-[50%] xl:w-fit">
             <div class="flex justify-end items-start">
               <div class="">
                 <h1 class="text-3xl font-extrabold">29</h1>
@@ -402,7 +416,7 @@
               <img src="./assets/images/deal (1).png" alt="" />
             </div>
             <h2
-              class="text-2xl font-bold text-dark border-b-2 border-gray-100 pb-3 px-3">
+              class="text-2xl font-bold text-[#121212] border-b-2 border-gray-100 pb-3 px-3">
               12.90$ - 18.85$
             </h2>
             <p class="opacity-60">Banana</p>
@@ -437,7 +451,7 @@
                   d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
               </svg>
               <svg
-                class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -460,6 +474,91 @@
               class="text-base text-red-600 font-bold cursor-pointer lg:pt-3"
               >Details</span
             >
+
+            <!-- Modal toggle -->
+            <button
+              data-modal-target="defaultModal"
+              data-modal-toggle="defaultModal"
+              class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              type="button">
+              Toggle modal
+            </button>
+
+            <!-- Main modal -->
+            <div
+              id="defaultModal"
+              tabindex="-1"
+              aria-hidden="true"
+              class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+              <div class="relative w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+                    <h3
+                      class="text-xl font-semibold text-gray-900 dark:text-white">
+                      Terms of Service
+                    </h3>
+                    <button
+                      type="button"
+                      class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                      data-modal-hide="defaultModal">
+                      <svg
+                        class="w-3 h-3"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 14">
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                      </svg>
+                      <span class="sr-only">Close modal</span>
+                    </button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="p-6 space-y-6">
+                    <p
+                      class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                      With less than a month to go before the European Union
+                      enacts new consumer privacy laws for its citizens,
+                      companies around the world are updating their terms of
+                      service agreements to comply.
+                    </p>
+                    <p
+                      class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                      The European Union’s General Data Protection Regulation
+                      (G.D.P.R.) goes into effect on May 25 and is meant to
+                      ensure a common set of data rights in the European Union.
+                      It requires organizations to notify users as soon as
+                      possible of high-risk data breaches that could personally
+                      affect them.
+                    </p>
+                  </div>
+                  <!-- Modal footer -->
+                  <div
+                    class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <button
+                      data-modal-hide="defaultModal"
+                      type="button"
+                      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      I accept
+                    </button>
+                    <button
+                      data-modal-hide="defaultModal"
+                      type="button"
+                      class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                      Decline
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- Single Card Item 2 -->
           <div
@@ -468,7 +567,7 @@
               <img src="./assets/images/deal (2).png" alt="" />
             </div>
             <h2
-              class="text-2xl font-bold text-dark border-b-2 border-gray-100 pb-3 px-3">
+              class="text-2xl font-bold text-[#121212] border-b-2 border-gray-100 pb-3 px-3">
               10.90$ - 11.85$
             </h2>
             <p class="opacity-60 py-2">Red Dragon</p>
@@ -494,7 +593,7 @@
                   d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
               </svg>
               <svg
-                class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -503,7 +602,7 @@
                   d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
               </svg>
               <svg
-                class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -534,7 +633,7 @@
               <img src="./assets/images/deal (3).png" alt="" />
             </div>
             <h2
-              class="text-2xl font-bold text-dark border-b-2 border-gray-100 pb-3 px-3">
+              class="text-2xl font-bold text-[#121212] border-b-2 border-gray-100 pb-3 px-3">
               19.90$ - 18.85$
             </h2>
             <p class="opacity-60 py-2">Apples</p>
@@ -600,7 +699,7 @@
               <img src="./assets/images/deal (4).png" alt="" />
             </div>
             <h2
-              class="text-2xl font-bold text-dark border-b-2 border-gray-100 pb-3 px-3">
+              class="text-2xl font-bold text-[#121212] border-b-2 border-gray-100 pb-3 px-3">
               25.90$ - 8.85$
             </h2>
             <p class="opacity-60 py-2">Orange</p>
@@ -617,7 +716,7 @@
                   d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
               </svg>
               <svg
-                class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -626,7 +725,7 @@
                   d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
               </svg>
               <svg
-                class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -635,7 +734,7 @@
                   d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
               </svg>
               <svg
-                class="w-5 h-5 text-red-500 mr-1 cursor-pointer"
+                class="w-5 h-5 text-red-300 mr-1 cursor-pointer"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
