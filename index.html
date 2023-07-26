@@ -9,6 +9,13 @@
       href="./assets/images/logo.png"
       type="image/x-icon" />
 
+    <!-- import custom style css  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import phosphoricons icons  -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- import Flowbite - Tailwind CSS component library  -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"
       rel="stylesheet" />
@@ -31,32 +38,51 @@
     </script>
   </head>
   <body>
-    <nav class="">
-      <div class="flex flex-wrap items-center justify-between mx-auto py-5">
-        <ul class="flex justify-center items-center text-lg">
+    <!-- Header Section -->
+    <header>
+      <!-- Navbar -->
+      <div
+        class="flex flex-wrap sm:bg-primary lg:flex-no-wrap items-center justify-between mx-auto py-5 lg:m-5 xl:mx-20 2xl:mx-40 lg:rounded-full lg:px-10 2xl:px-20">
+        <!-- Desktop Menu  -->
+        <ul
+          class="hidden text-white text-xl font-medium lg:flex gap-3 2xl:text-2xl 2xl:gap-10">
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4">Home</a>
+            <a href="#" class="font-semibold text-white text-xl">Home</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4">About Us</a>
+            <a href="#" class="font-semibold text-white text-xl">About Us</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4">Shop</a>
+            <a href="#" class="font-semibold text-white text-xl">Shop</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4">All Fruits</a>
+            <a href="#" class="font-semibold text-white text-xl">All Fruits</a>
           </li>
         </ul>
+
+        <!-- website Logo -->
         <a href="#" class="flex items-center ml-3">
           <img
             src="./assets/images/logo.png"
             class="w-7 sm:w-12 mr-3 lg:w-14"
             alt="Flowbite Logo" />
           <span
-            class="self-center text-xl sm:text-[30px] lg:text-[40px] text-dark font-bold whitespace-nowrap"
+            class="self-center text-xl sm:text-[30px] lg:text-[40px] text-dark sm:text-white font-bold whitespace-nowrap"
             >Fruit Burst</span
           >
         </a>
+
+        <!-- Search bar  -->
+        <div
+          class="my-3 bg-white rounded-full overflow-hidden px-5 hidden sm:flex">
+          <input
+            class="w-full outline-none p-3 text-base text-dark placeholder:text-[#121212]"
+            placeholder="Search here" />
+          <div class="flex items-center pl-3">
+            <img src="./assets/icons/search.svg" alt="" />
+          </div>
+        </div>
+
         <!-- Mobile Menu Button 1026 after 1024px -->
         <button
           data-collapse-toggle="navbar-hamburger"
@@ -64,13 +90,13 @@
           class="p-2 focus:outline-none focus:ring-2 mr-3 lg:hidden"
           aria-controls="navbar-hamburger"
           aria-expanded="false">
-          <img src="./assets/icons/menu.svg" alt="" />
+          <i class="ph ph-list text-2xl text-dark sm:text-white"></i>
         </button>
         <div
-          class="w-full bg-primary hidden text-white flex flex-col justify-center items-center px-4 mt-4 lg:hidden"
+          class="w-full bg-primary hidden text-white flex-col justify-center items-center px-4 mt-4 lg:hidden"
           id="navbar-hamburger">
           <div
-            class="flex w-full my-3 bg-white rounded-full overflow-hidden px-5">
+            class="flex w-full my-3 bg-white rounded-full overflow-hidden px-5 sm:hidden">
             <input
               class="w-full outline-none p-3 text-base text-dark placeholder:text-[#121212]"
               placeholder="Search here" />
@@ -79,22 +105,25 @@
             </div>
           </div>
 
-          <ul class="flex justify-center flex-col items-center text-lg">
+          <ul
+            class="flex justify-center flex-col items-center text-lg gap-5 pb-5 font-medium">
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4">Home</a>
+              <a href="#" class="font-semibold text-white text-xl">Home</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4">About Us</a>
+              <a href="#" class="font-semibold text-white text-xl">About Us</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4">Shop</a>
+              <a href="#" class="font-semibold text-white text-xl">Shop</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4">All Fruits</a>
+              <a href="#" class="font-semibold text-white text-xl"
+                >All Fruits</a
+              >
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </header>
   </body>
 </html>
