@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
 * {
   font-family: "Lato", sans-serif;
 }
@@ -10,4 +11,25 @@
   background-image: url("./assets/images/slider\ \(3\).png"),
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
+}
+
+.chose {
+  grid-template-areas: "box2 box1  box3";
+}
+
+@media only screen and (max-width: 768px) {
+  .chose {
+    grid-template-areas:
+      "box1 box1 "
+      "box2 box3 "
+      "box2 box3 ";
+  }
+}
+@media only screen and (max-width: 600px) {
+  .chose {
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3";
+  }
 }
